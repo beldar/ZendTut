@@ -20,6 +20,7 @@ class AlbumForm extends Form
             'name' => 'artist',
             'attributes' => array(
                 'type'  => 'text',
+                'class' => 'form-control',
             ),
             'options' => array(
                 'label' => 'Artist',
@@ -29,6 +30,7 @@ class AlbumForm extends Form
             'name' => 'title',
             'attributes' => array(
                 'type'  => 'text',
+                'class' => 'form-control',
             ),
             'options' => array(
                 'label' => 'Title',
@@ -40,6 +42,7 @@ class AlbumForm extends Form
                 'type'  => 'submit',
                 'value' => 'Go',
                 'id' => 'submitbutton',
+                'class' => 'btn btn-primary'
             ),
         ));
     }
